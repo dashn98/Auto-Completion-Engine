@@ -1,0 +1,11 @@
+Approach to User_History
+My approach is to read in each line from the user's history if there is a user history text file.
+Each line is added to a history arrayList.
+Each time a new letter is entered by the user. prior to printing out suggestions the program loops through the user history arrayList
+searching for any words the user previously entered that match the prefix that is entered and adds them to a suggestion arrayList
+Next if there are less than five history suggestions it will fill in the rest of suggestions based on the dictionary findWord method.
+
+
+
+Data Structures from the java standard library:
+I used the ArrayList data structure which has an runtime that is O(1)
